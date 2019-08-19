@@ -1,10 +1,30 @@
 # API Project: URL Shortener Microservice for freeCodeCamp
 
+My project for the [URL Shortener Microservice Challenge](https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice) as part of the curriculum for the APIs and Microservices Certification on [Free Code Camp](https://www.freecodecamp.org).
+
+---
+
+## Built With
+* [Express.js](https://expressjs.com)
+* [Mongoose.js](https://mongoosejs.com)
+* CSS3
+* HTML5
+
+
+## Installation
+
+```
+$ git clone sagarsoni7/boilerplate-project-headerparser.git
+$ npm install
+$ npm start
+```
+
+Go to `http://localhost:3000`.
 
 ### User Stories
 
 1. I can POST a URL to `[project_url]/api/shorturl/new` and I will receive a shortened URL in the JSON response. Example : `{"original_url":"www.google.com","short_url":1}`
-2. If I pass an invalid URL that doesn't follow the valid `http(s)://www.example.com(/more/routes)` format, the JSON response will contain an error like `{"error":"invalid URL"}`. *HINT*: to be sure that the submitted url points to a valid site you can use the function `dns.lookup(host, cb)` from the `dns` core module.
+2. If I pass an invalid URL that doesn't follow the valid `http(s)://www.example.com(/more/routes)` format, the JSON response will contain an error like `{"error":"invalid URL"}`. 
 3. When I visit the shortened URL, it will redirect me to my original link.
 
 
@@ -18,4 +38,4 @@ POST [project_url]/api/shorturl/new - body (urlencoded) :  url=https://www.googl
 
 #### Will redirect to:
 
-https://www.freecodecamp.org/forum/
+https://www.MyCreatedURL.com/
