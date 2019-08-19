@@ -14,7 +14,7 @@ My project for the [URL Shortener Microservice Challenge](https://learn.freecode
 ## Installation
 
 ```
-$ git clone sagarsoni7/boilerplate-project-headerparser.git
+$ git clone sagarsoni7/fcc-project-urlshortener.git
 $ npm install
 $ npm start
 ```
